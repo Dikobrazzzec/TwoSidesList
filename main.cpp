@@ -21,6 +21,10 @@ int main(int argc, char *argv[])
     qDebug()<<"5";
     qDebug()<<A.Adding(0,0,0,"Vyach",nullptr);
     qDebug()<<A.Adding(6,6,6,"Krasti",rtptr);
+    QString f;
+    qDebug()<<f;
+    int j;
+    qDebug()<<j;
 
 
     QApplication a(argc, argv);
